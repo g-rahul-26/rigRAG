@@ -1,0 +1,2 @@
+{"id": "q001", "type": "factual", "question": "<question in everyday words>", "expected_answer": "<short correct answer copied from the circular>", "expected_doc": "<doc_id from data/processed/docs.jsonl OR circular number OR part of the title>", "expected_para": "<paragraph number, e.g. 38>"}
+{"id": "q002", "type": "not_in_corpus", "question": "<a question your circulars do NOT answer, e.g. about income tax slabs>", "expected_answer": "", "expected_doc": "", "expected_para": ""}

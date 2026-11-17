@@ -1,0 +1,13 @@
+# Level-1 evals: fast offline unit tests on every push (no API keys, no model downloads)
+name: tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pymupdf rank-bm25 chromadb numpy openai python-dotenv requests beautifulsoup4 pytest
+      - run: pytest -q

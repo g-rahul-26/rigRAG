@@ -1,0 +1,13 @@
+# Python 3.10 - 3.12 recommended
+pymupdf>=1.24
+pdfplumber>=0.11
+rank-bm25>=0.2.2
+chromadb>=0.5
+sentence-transformers>=3.0
+numpy>=1.26
+openai>=1.40
+python-dotenv>=1.0
+streamlit>=1.36
+requests>=2.31
+beautifulsoup4>=4.12
+pytest>=8.0

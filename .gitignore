@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+rento/
+data/raw/**/*.pdf
+data/raw/**/*.json
+data/processed/
+data/index/
+data/cache/
+evals/results/
+.pytest_cache/
